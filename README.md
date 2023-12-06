@@ -10,6 +10,8 @@ The objective of this project is to enhance the website's conversion rate on sma
 
 ![Screenshot 2023-12-06 145452](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/e5f9fa8b-754f-4456-a1e6-aaaa851bc9d0)
 ![Screenshot 2023-12-06 145508](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/caa8d62b-cf2f-4203-82fa-b5d39090262a)
+
+#Images :
 ![Screenshot 2023-12-06 145700](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/d3a80cfa-4089-4bdb-911e-111bda332b76)
 ![Screenshot 2023-12-06 145649](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/c20df2fb-40c8-44a9-a278-d64137076651)
 
