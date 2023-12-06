@@ -8,7 +8,8 @@ The objective of this project is to enhance the website's conversion rate on sma
 
 # Page speed Insights:
 
-![Screenshot (1163)](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/72daf896-d432-47ab-8ab3-0f6688d56f90)
-![Screenshot (1164)](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/5cd75dec-05f5-47d6-b087-7d46144b11db)
+![Screenshot 2023-12-06 145452](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/e5f9fa8b-754f-4456-a1e6-aaaa851bc9d0)
+![Screenshot 2023-12-06 145508](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/caa8d62b-cf2f-4203-82fa-b5d39090262a)
+
 
 
