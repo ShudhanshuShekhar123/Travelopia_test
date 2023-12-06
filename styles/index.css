@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  border: 1px solid grey;
+}
+
+a {
+  font-weight: 500;
+}
+
+#top-nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(55, 62, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+#top-nav p {
+  color: white;
+}
+
+#top-nav span {
+  color: rgb(253, 235, 180);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.phone img {
+  height: 20px;
+}
+
+.phone-mobile {
+  height: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00a8b6;
+}
+
+.search-box img {
+  height: 20px;
+}
+
+.country-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.contact-button {
+  background-color: #00a8b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.country-svg img {
+  width: 40px;
+  height: 40px;
+}
+
+.phone a {
+  color: #00a8b6;
+}
+
+.phone img {
+  filter: invert(37%) sepia(56%) saturate(4528%) hue-rotate(184deg) brightness(91%) contrast(88%);
+}
+
+@media screen and (min-width: 451px) and (max-width: 600px) {
+  #top-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #top-nav {
+    display: none;
+  }
+
+  .search-box-mobile {
+    display: none;
+  }
+
+  .contact-button {
+    display: none;
+  }
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .search-box-mobile img {
+    height: 20px;
+  }
+
+  .phone-mobile {
+    padding-left: 8px;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .inside_hamburger {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    padding: 6px 0px;
+  }
+
+  .search-box,
+  .phone,
+  .country-button-container {
+    display: none;
+  }
+
+  .nav-link {
+    text-align: center;
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 15px;
+  }
+
+  .country-button-container-mobile {
+    display: flex;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .search-box-mobile {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .burger {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-button {
+    margin-left: 20px;
+  }
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feature {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid grey;
+}
+
+.feature img {
+  height: 20px;
+  margin-left: 16px;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+
+.feature p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .feature-container {
+    display: none;
+  }
+}
+
+.armenia_photo img {
+  width: 100%;
+  height: 340px;
+}
+
+.armenia_photo {
+  position: relative;
+}
+
+.hover_detail {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0px 10px;
+  width: 45%;
+  text-align: center;
+  background-color: rgba(34, 36, 36, 0.6);
+  backdrop-filter: blur(3px);
+  margin: auto;
+  top: 44%;
+  left: 25%;
+}
+
+.hover_detail h1 {
+  font-size: 50px;
+  font-family: "IBM Plex", serif;
+  font-weight: 800;
+  color: white;
+}
+
+.hover_detail p {
+  font-size: 16px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .hover_detail h1 {
+    font-size: 40px;
+    font-family: "IBM Plex", serif;
+    font-weight: 800;
+    color: white;
+  }
+
+  .hover_detail {
+    width: 80%;
+    top: 44%;
+    left: 10%;
+  }
+}
+
+.below {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.description {
+  width: 60%;
+}
+
+.description p {
+  font-weight: 500;
+  color: grey;
+}
+
+.description h5 {
+  font-size: 17px;
+  font-weight: 800;
+  color: grey;
+}
+
+.form_element {
+  width: 30%;
+  padding: 0px 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_form {
+  padding: 10px 0px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.title_form p {
+  font-weight: 600;
+  color: grey;
+  margin-bottom: 0px;
+}
+
+.title_form .number {
+  color: #00a8b6;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.title_form p,
+.number {
+  padding-left: 20px;
+}
+
+.title {
+  background-color: #454f4f;
+  color: white;
+}
+
+form .enquiry_title {
+  font-size: 30px;
+  padding-left: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+form .step {
+  font-size: 16px;
+  padding-left: 22px;
+  font-weight: 600;
+}
+
+form label {
+  padding-left: 22px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+form input {
+  width: 80%;
+  height: 35px;
+  margin-left: 22px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+#message {
+  display: flex;
+  padding-bottom: 160px;
+}
+
+.text_below {
+  padding-left: 28px;
+}
+
+form button {
+  width: 75%;
+  padding: 15px 0px;
+  margin-left: 40px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: white;
+  background-color: #00a8b6;
+}
+
+.conclude {
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 6px;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+
+.more_description-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1330px) {
+  .below {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    width: 90%;
+    margin: auto;
+  }
+
+  .form_element {
+    width: 90%;
+    margin: auto;
+  }
+
+  form input {
+    width: 90%;
+  }
+
+  form button {
+    width: 88%;
+  }
+
+  .conclude {
+    margin-bottom: 25px;
+  }
+
+  .more_description {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  form input {
+    width: 80%;
+  }
+
+  form button {
+    width: 72%;
+  }
+
+  .hover_detail h1 {
+    font-size: 37px;
+  }
+}
+
+.description .up {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  color: #00a8b6;
+  cursor: pointer;
+  width: fit-content;
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .description .up {
+    display: block;
+  }
+
+  .feature-container {
+    display: none;
+  }
+
+  .armenia_photo img {
+    height: 230px;
+  }
+
+  .hover_detail {
+    top: 10%;
+  }
+
+  .title_form {
+    margin-top: -20px;
+  }
+
+  .showed {
+    display: block;
+  }
+}
+
+.hide {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
