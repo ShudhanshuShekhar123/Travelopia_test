@@ -6,7 +6,7 @@ The objective of this project is to enhance the website's conversion rate on sma
  2. CSS
  3. JAVASCRIPT
 
-#Functionallity:
+# Functionallity:
 1.Toggle functionallity
 2. fully responsive according to different screen size
 
