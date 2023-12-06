@@ -6,6 +6,10 @@ The objective of this project is to enhance the website's conversion rate on sma
  2. CSS
  3. JAVASCRIPT
 
+#Functionallity:
+1.Toggle functionallity
+2. fully responsive according to different screen size
+
 # Page speed Insights:
 
 ![Screenshot 2023-12-06 145452](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/e5f9fa8b-754f-4456-a1e6-aaaa851bc9d0)
@@ -14,6 +18,8 @@ The objective of this project is to enhance the website's conversion rate on sma
 #Images :
 ![Screenshot 2023-12-06 145700](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/d3a80cfa-4089-4bdb-911e-111bda332b76)
 ![Screenshot 2023-12-06 145649](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/c20df2fb-40c8-44a9-a278-d64137076651)
+![Screenshot 2023-12-06 145840](https://github.com/ShudhanshuShekhar123/Travelopia_test/assets/115460439/2cc38ba3-bbb5-4233-91e9-cf36852dc54a)
+
 
 
 
